@@ -21,6 +21,7 @@ lightgbm = "^3.3.5"
 squarify = "^0.4.3"
 networkx = "^3.1"
 geopandas = "^0.13.2"
+xlrd = "^2.0.1"
 
 
 [build-system]
