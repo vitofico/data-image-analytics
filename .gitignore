@@ -92,3 +92,5 @@ ENV/
 # Repo specific files
 copy_dbs.py
 report_ListaClase.xls
+test_*
+*.zip
