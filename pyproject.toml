@@ -1,24 +1,19 @@
-[tool.poetry]
-name = "data-and-image-analytics"
+[project]
+name = "data-image-analytics"
 version = "0.1.0"
 description = ""
-authors = ["Vito Mario Fico <vmfico@uloyola.es>"]
 readme = "README.md"
-packages = [{include = "data_and_image_analytics"}]
-
-[tool.poetry.dependencies]
-python = "^3.12"
-numpy = "^1.25.0"
-pandas = "^2.0.2"
-jupyter = "^1.0.0"
-matplotlib = "^3.7.1"
-scikit-learn = "^1.2.2"
-seaborn = "^0.13.2"
-xgboost = "^2.1.1"
-requests = "^2.32.3"
-
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "requests>=2.32.4",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "typer>=0.15.1",
+    "ucimlrepo>=0.0.7",
+    "xgboost>=3.0.3",
+]

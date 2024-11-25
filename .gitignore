@@ -93,4 +93,7 @@ ENV/
 copy_dbs.py
 report_ListaClase.xls
 test_*
+exam*
 *.zip
+.DS_Store
+quizzes/
